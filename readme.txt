@@ -1,0 +1,15 @@
+Crawler.CWB.3H.py:抓取cwb未來3天的天氣預報(以每三小時為間格)
+Crawler.OpenWeatherMap.3H.py:抓取owm未來5天的天氣預報(以每三小時為間格)
+crawler_Observation_CWB.py:抓取cwb觀測站的歷史資料
+get_clear_sky_radiation.py:抓取未來一天晴空輻射的資料
+get_ColifeAPI_MSM.py:抓取廠商提供的輻射資料(因私人而不提供)
+get_power.py:抓取廠商提供的發電量資料(因私人而不提供)
+history_merge_new.py:合併新舊資料，並重新繪製成一張新的大表
+merge_cloud_15m.py:將雲資料從每10分鐘一筆改成每15分鐘一筆
+old_and_new_data_merge.py:將新資料加入到舊資料中
+pred_power_15m_0-24.py:預測未來一天太陽能的發電量數值(間格以每15分鐘為一筆)
+pred_power_d_6-17.py:預測未來一天太陽能的發電量數值(間格以每一小時為一筆)
+pred_power_h_6-17.py:預測下一小時的太陽能的發電量數值(間格以每一小時為一筆)
+read_CWB_3H.py:合併cwb抓取下來的新舊資料
+read_OWM_3H.py:合併OWM抓取下來的新舊資料
+save_power_15m.py:將預測結果存入資料庫中供人使用(因私人而不提供)
